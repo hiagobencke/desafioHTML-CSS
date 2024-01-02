@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #FFFFFF;
+    --color-blue: #222374;
+    --color-gray: #CCC;
+    --color-black: #000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav a {
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.icon-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#discover-our-space-title {
+    background-color: var(--color-blue);
+    height: 418px;
+    padding: 0px 15px;
+}
+
+#discover-our-space-title h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    padding: 20px 0px 40px 0px;
+}
+
+.card-fitness {
+    background-color: var(--color-gray);
+    height: 127px;
+    border-radius: 8px;
+    margin: 0px 0px 20px 0px;
+}
+
+.card-fitness h3 {
+    color: var(--color-black);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.card-fitness p {
+    color: var(--color-black);
+    font-size: 14px;
+    padding: 0px 20px 20px 20px;
+}
+
+#modalities-title {
+    background-color: var(--color-white);
+    height: 880px;
+    padding: 0px 15px;
+}
+
+#modalities-title h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 20px 0px 40px 0px;
+}
+
+.card-sport {
+    background-color: var(--color-blue);
+    height: 106px;
+    border-radius: 8px;
+    padding: 0px 0px;
+    margin: 20px 0;
+}
+
+.card-sport h3 {
+    color: var(--color-white);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.card-sport p {
+    color: var(--color-gray);
+    font-size: 14px;
+    padding: 0px 20px 20px 20px;
+}
+
+footer {
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 66px 15px 0px 15px;
+}
+
+.icon-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+.footer-addres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0px 60px 0px;
+}
+
+.icon-footer a {
+    width: 78px;
+}
